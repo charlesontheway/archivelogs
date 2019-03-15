@@ -1,6 +1,7 @@
 #!/bin/bash
 #Flush container's logs when the logs dir size larger than 3GB
-
+# Author:Neo
+# Email:474183554@qq.com
 # LOGSPATH=("/home/docker_data/gmxx/.pm2/logs" "/home/docker_data/gmxx/kafka2es/.pm2/logs" "/var/node/apps/gmxx/logs" "/var/node/apps/mobile/logs" "/var/node/apps/gmxxApi/logs" "/home/docker_data/gmxx/mobile/.pm2/logs")
 LOGSPATH=("/var/lib/docker/containers" "/home/docker_data/csgaServer/.pm2/logs" "/var/log/docker")
 LOGS_BAK="/home/logsbak"
